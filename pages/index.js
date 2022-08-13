@@ -47,7 +47,7 @@ export default function Home() {
           className="form-control text-center"
           style={{ maxWidth: "100px" }}
           type="number"
-          onChange={(even) => {
+          onChange={(event) => {
             setGenAmount(event.target.value);
           }}
           value={genAmount}
